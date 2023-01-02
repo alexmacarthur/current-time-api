@@ -2,6 +2,10 @@
 
 Get the current year by making a GET request. Using modern HTTP technology, never manually update your site footer again.
 
+## Why? 
+
+Accessing the year using language APIs is too simplistic and under-engineered. This is more architecturally interesting and may offer improved job security.
+
 ## Try It
 
 https://current-year-api.vercel.app/api/current-year
