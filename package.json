@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/alexmacarthur/current-year-api#readme",
   "dependencies": {
-    "@vercel/node": "^2.8.2"
+    "@vercel/node": "^2.8.2",
+    "left-pad": "^1.3.0"
   },
   "devDependencies": {
     "vercel": "^28.10.1"
