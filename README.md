@@ -15,3 +15,9 @@ https://current-year-api.vercel.app/api/current-year
 By default, it uses the "America/Chicago" timezone. You can change this by passing a `tz` parameter. It must be a valid timezone recognized by JavaScript.
 
 https://current-year-api.vercel.app/api/current-year?tz=Africa/Addis_Ababa
+
+## Mocking the Year
+
+For testing purposes, it may be helpful to mock the year to be returned. You may do so using a `mockYear` parameter.
+
+https://current-year-api.vercel.app/api/current-year?mockYear=1999
