@@ -1,14 +1,26 @@
-# Current Year API
+# Current Time API
 
-Get the current year by making a GET request. Using modern HTTP technology, never manually update your site footer again.
+> :warning: This does not yet support returning the current hour, minute, or seconds. Please stay tuned for a future release.
 
-## Why? 
+Get the current date, month, and year by making separate GET requests. Using modern HTTP technology, you'll never have to manually update a timestamp again.
 
-Accessing the year using language APIs is too simplistic and under-engineered. This is more architecturally interesting and may offer improved job security.
+## Why?
 
-## Try It
+Accessing the date, month, and year using language APIs is too simplistic and under-engineered. This is more architecturally interesting and may offer improved job security.
 
-https://current-year-api.vercel.app/api/current-year
+## Endpoints
+
+### Get the Current Date
+
+GET https://current-year-api.vercel.app/api/current-date
+
+### Get the Current Month
+
+GET https://current-year-api.vercel.app/api/current-month
+
+### Get the Current Year
+
+GET https://current-year-api.vercel.app/api/current-year
 
 ## Change Time Zone
 
@@ -18,6 +30,6 @@ https://current-year-api.vercel.app/api/current-year?tz=Africa/Addis_Ababa
 
 ## Mocking the Year
 
-For testing purposes, it may be helpful to mock the year to be returned. You may do so using a `mockYear` parameter.
+For testing purposes, it may be helpful to mock the date, month, or year to be returned. You may do so using a `mockDate`, `mockMonth`, and `mockYear` parameters. Ex:
 
 https://current-year-api.vercel.app/api/current-year?mockYear=1999
