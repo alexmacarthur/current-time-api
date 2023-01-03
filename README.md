@@ -12,24 +12,24 @@ Accessing the date, month, and year using language APIs is too simplistic and un
 
 ### Get the Current Date
 
-GET https://current-year-api.vercel.app/api/current-date
+GET https://current-time-api.vercel.app/api/current-date
 
 ### Get the Current Month
 
-GET https://current-year-api.vercel.app/api/current-month
+GET https://current-time-api.vercel.app/api/current-month
 
 ### Get the Current Year
 
-GET https://current-year-api.vercel.app/api/current-year
+GET https://current-time-api.vercel.app/api/current-year
 
 ## Change Time Zone
 
 By default, it uses the "America/Chicago" timezone. You can change this by passing a `tz` parameter. It must be a valid timezone recognized by JavaScript.
 
-https://current-year-api.vercel.app/api/current-year?tz=Africa/Addis_Ababa
+https://current-time-api.vercel.app/api/current-year?tz=Africa/Addis_Ababa
 
 ## Mocking the Year
 
 For testing purposes, it may be helpful to mock the date, month, or year to be returned. You may do so using a `mockDate`, `mockMonth`, and `mockYear` parameters. Ex:
 
-https://current-year-api.vercel.app/api/current-year?mockYear=1999
+https://current-time-api.vercel.app/api/current-year?mockYear=1999
